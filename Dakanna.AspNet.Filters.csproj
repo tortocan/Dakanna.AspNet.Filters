@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Query Dictionary working with MVC bindings.</Description>
+    <Authors>George Tortocan</Authors>
+    <Company>Dakanna</Company>
   </PropertyGroup>
 
 </Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dakanna.AspNet.Filters", "Dakanna.AspNet.Filters.csproj", "{F244F718-3BA7-472E-ADD4-C2C406702717}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dakanna.AspNet.Filters.Sample", "..\Dakanna.AspNet.Filters.Sample\Dakanna.AspNet.Filters.Sample.csproj", "{F371461F-2050-48BF-840C-E1A04D0AEBE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F244F718-3BA7-472E-ADD4-C2C406702717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F244F718-3BA7-472E-ADD4-C2C406702717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F244F718-3BA7-472E-ADD4-C2C406702717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F244F718-3BA7-472E-ADD4-C2C406702717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F371461F-2050-48BF-840C-E1A04D0AEBE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F371461F-2050-48BF-840C-E1A04D0AEBE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F371461F-2050-48BF-840C-E1A04D0AEBE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F371461F-2050-48BF-840C-E1A04D0AEBE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11B9CD2E-4AD4-4315-9349-6D206ECECD16}
+	EndGlobalSection
+EndGlobal

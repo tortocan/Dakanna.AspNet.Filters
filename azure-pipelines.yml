@@ -31,8 +31,13 @@ steps:
     packagesToPack: 'Dakanna.AspNet.Filters.csproj'
     nobuild: true
     versioningScheme: 'off'
-- task: PublishBuildArtifacts@1
+- task: NuGetCommand@2
+  displayName: 'nuget push'
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'drop'
-    publishLocation: 'Container'
+    command: 'push'
+    feedsToUse: 'select'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+    nuGetFeedType: 'internal'
+    publishVstsFeed: 'Nuget.org'
+    versioningScheme: 'off'
+    allowPackageConflicts: true'

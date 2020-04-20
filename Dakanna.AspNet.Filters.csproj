@@ -6,6 +6,8 @@
     <Description>Query Dictionary working with MVC bindings.</Description>
     <Authors>George Tortocan</Authors>
     <Company>Dakanna</Company>
+    <PackageProjectUrl>https://github.com/tortocan/Dakanna.AspNet.Filters</PackageProjectUrl>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>

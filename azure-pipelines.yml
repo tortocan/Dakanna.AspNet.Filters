@@ -31,14 +31,6 @@ steps:
     packagesToPack: 'Dakanna.AspNet.Filters.csproj'
     nobuild: true
     versioningScheme: 'off'
-    
-- task: NuGetCommand@2
-  inputs:
-    command: 'push'
-    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
-    nuGetFeedType: 'internal'
-    publishVstsFeed: '32d834f4-12e1-40fa-a67e-ab2f22d96930'
-    allowPackageConflicts: true
 
 - task: NuGetCommand@2
   inputs:
